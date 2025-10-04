@@ -280,8 +280,9 @@ async def main(filePath, proxyPath, tread):
 
 if __name__ == "__main__":
     _filePath = r"自己的目标目录 或者 运行目录"
-    _proxyPath = r"自己的目标目录"
+    _proxyPath = r"自己的目标目录 或者 运行目录"
     _tread = 1
     asyncio.run(main(_filePath, _proxyPath, _tread))
+
 
 
