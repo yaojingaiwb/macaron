@@ -279,7 +279,8 @@ async def main(filePath, proxyPath, tread):
 
 
 if __name__ == "__main__":
-    _filePath = r"E:\桌面\python\macaron\autokey.txt"
-    _proxyPath = r"E:\桌面\python\proxies.txt"
+    _filePath = r"自己的目标目录"
+    _proxyPath = r"自己的目标目录"
     _tread = 1
     asyncio.run(main(_filePath, _proxyPath, _tread))
+
