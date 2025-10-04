@@ -1,7 +1,4 @@
-import asyncio, sys, loguru, time
-import random
-import string
-
+import asyncio, sys, loguru, time, random, string
 from curl_cffi.requests import AsyncSession
 from eth_account.messages import encode_defunct
 from web3 import AsyncWeb3
@@ -284,6 +281,7 @@ if __name__ == "__main__":
     
     _tread = 1 #线程
     asyncio.run(main(_filePath, _proxyPath, _tread))
+
 
 
 
